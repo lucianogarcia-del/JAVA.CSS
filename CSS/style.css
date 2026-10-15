@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(111, 180, 111);
+    font-family: poly;
+}
+
+header {
+    background-color: rgb(199, 230, 218);
+    color: black;
+    text-align: center;
+    padding: 35px;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+
+}
+
+figure,
+figure img {
+    height: 266px;
+}
+
+#fig2 {
+    background-image: url('../img/Kid.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+}
+
+#fig2:hover {
+    background-image: url('../img/Buu.webp');
+    
+}
